@@ -14,3 +14,11 @@ button.addEventListener('click', () => {
          // Cambio il testo del bottone
          button.textContent = 'Spegni';
      } else {
+              // viceversa
+              lamp.classList.remove('on');
+              lamp.classList.add('off');
+              lamp.src = 'img/white_lamp.png';
+              button.textContent = 'Accendi';
+          }
+      });
+      
